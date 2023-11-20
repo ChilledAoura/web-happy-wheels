@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Montserrat');
+
+body {
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #404451;
+    color: #F9F9F9;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Acme', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 1500px;
+}
+
+.google-ads-type-2-banner {
+    max-width: 970px;
+    height: auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.google-ads-type-cube-1 {
+    margin: 5px 5px;
+    max-width: 336px;
+    height: auto;
+    text-align: center;
+    display: inline;
+}
+.google-ads-type-cube-2 {
+    margin: 5px 10px;
+    max-width: 336px;
+    height: auto;
+    text-align: center;
+    display: inline;
+}
+.google-ads-type-cube-3 {
+    margin: 5px 5px;
+    max-width: 336px;
+    height: auto;
+    text-align: center;
+    display: inline;
+}
+
+@media screen and (max-width: 1200px) {
+    .cpm_right {
+        display: none;
+    }
+    .google-ads-type-cube-3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cpm_left {
+        display: none;
+    }
+
+    .google-ads-type-2-banner {
+        display: none;
+    }
+}
